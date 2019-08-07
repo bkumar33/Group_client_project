@@ -19,3 +19,5 @@
  #### Future Recommendations
  - ***Data Gathering and Hand Labelling***: If we had more hand labelled tweets pertaining to specific disasters, the model could be better trained to hone in on more specific keywords that are used when disaster strikes. 
  - ***Removing and Adding Weight Words***: If certain words like "Sandy", "Katrina", and other very specific singular disaster words were to be added to stopwords, the model would likely generalize better to disasters. This has yet to be tested though. If there ere also ways to add in certain words as weight words that the model may not have caught when training itself, that could also help.
+#### Outside Sources
+- All data used in this project came from two sources. Training datasets all came from crisislex.org and all testing data came from using Twitter’s API.
